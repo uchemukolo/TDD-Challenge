@@ -1,14 +1,14 @@
 function words(str) {
-  const objCount = {};
+  const wordCount = {};
   const splitString = str.split(/\s+/);
   splitString.forEach(function(str) {
-    if(objCount.hasOwnProperty(str)) {
-      objCount[str]++;  //increment's word by 1 if it re-occurs
+    if(wordCount.hasOwnProperty(str)) {
+      wordCount[str]++;  //increment's word by 1 if it re-occurs
     } else {
-      objCount[str] = 1;
+      wordCount[str] = 1;
     }
   });
-  return objCount;
+  return wordCount;
 }
 
 exports.words = words;

@@ -1,6 +1,6 @@
 'use strict'
-const assert = require ('chai').assert;
-const myApp = require('../src/main.js');
+import { assert } from 'chai';
+import { words } from '../src/main.js';
 
 describe("words", (word) => {
         it("counts one word", () => {
