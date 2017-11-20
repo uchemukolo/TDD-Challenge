@@ -1,6 +1,6 @@
 function words(str) {
-  const wordCount = {};
-  const splitString = str.split(/\s+/);
+  let wordCount = {};
+  let splitString = str.split(/\s+/);
   splitString.forEach(function(str) {
     if(wordCount.hasOwnProperty(str)) {
       wordCount[str]++;  //increment's word by 1 if it re-occurs
