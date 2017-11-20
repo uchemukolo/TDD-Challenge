@@ -1,0 +1,22 @@
+{
+  "name": "tdd-challenge",
+  "version": "1.0.0",
+  "description": "tdd bootcamp challenge",
+  "main": "src/main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/tests.js"
+  },
+  "keywords": [
+    "tdd",
+    "jacascript"
+  ],
+  "author": "Uche Mukolo",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
